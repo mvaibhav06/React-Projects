@@ -1,38 +1,393 @@
-.App {
-  text-align: center;
+.left{
+  float: left;
+  width: 300px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.logo{
+  margin: 15px;
+  padding: 10px;
+  width: 230px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+  top: 100px;
+  margin-top: -34px;
+  font-size: 18px;
+  margin-left: 30px;
+
+  font-family: Oswald, sans-serif;
+  opacity: 0.8;
+  color: gray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar a{
+  text-decoration: none;
+  color: rgb(61, 198, 193);
+}
+
+.center{
+  margin: 20px auto;
+  margin-top: 10px;
+  width: 300px;
+  
+}
+
+.center button{
+  color: #0c0f48;
+  background-color: #f8f9fa;
+  border: 0;
+  box-shadow: 0 0 2px #ddd;
+  padding: 10px;
+
+}
+
+.dropbtn {
+  background-color: #f8f9fa;
+  color: black;
+  padding: 16px;
+  font-size: 10px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 22px;
+  margin-left: 60px;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  background-color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn a{
+  color: black;
+} 
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #545b62;}
+
+.timer{
+  float: right;
+  margin-top : 30px;
+  margin-right : 270px;
+}
+
+
+.color-white{
   color: white;
+  float: right;
+  margin-right: 80px;
+  /* margin-top: -10px; */
 }
 
-.App-link {
-  color: #61dafb;
+a{
+    color: #007bff;
+    margin-top: -50px;
+    text-decoration: none;
+    background-color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-telegram-button{
+    font-size: 10px;
+    margin: 6px 20px;
+    margin: 10px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background-color: #3dc6c1;
+    color: #fff;
+    width: 80px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.telegram-logo{
+  height: 20px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+
+/* This is FirstComponent CSS */
+
+.average-subText{
+  font-weight: 400;
+  color: #0c0f48;
+  opacity: 0.45;
+  /* font-weight: 300; */
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.subText-heading{
+  font-size: 24px;
+}
+
+
+.average-header-maintext{
+  font-weight: 400;
+  font-size: 35px;
+  white-space: nowrap;
+}
+
+.color-green{
+  color: #5dc7c2;
+}
+
+.average-header-subHeading{
+  font-weight: 400;
+  color: #0c0f48;
+  opacity: 0.45;
+  /* font-weight: 300; */
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+.text-center{
+  text-align: center;
+  float: left;
+
+}
+
+
+.average-heading{
+  font-weight: 400;
+  font-size: 70px;
+  margin-left: 370px;
+}
+
+
+.text-move{
+  margin-left: 390px;
+}
+
+
+.average-header-maintext1{
+  font-weight: 400;
+  font-size: 35px;
+  white-space: nowrap;
+  margin-top: -140px;
+  margin-left: 750px;
+}
+
+.average-header-subHeading1{
+  font-weight: 400;
+  color: #0c0f48;
+  opacity: 0.45;
+  /* font-weight: 300; */
+  white-space: nowrap;
+  font-size: 20px;
+  margin-left: 750px;
+}
+
+div{
+  display: block;
+}
+
+
+.average-header-maintext2{
+  font-weight: 400;
+  font-size: 35px;
+  white-space: nowrap;
+  margin-top: -140px;
+  margin-left: 920px;
+}
+
+.average-header-subHeading2{
+  font-weight: 400;
+  color: #0c0f48;
+  opacity: 0.45;
+  /* font-weight: 300; */
+  white-space: nowrap;
+  font-size: 20px;
+  margin-left: 920px;
+}
+
+
+
+/* This is SecondComponent */
+
+.imgdiv{
+  margin-top: 35px;
+  /* padding: 0px 0px 20px; */
+}
+
+.imgcss{
+  padding: 0px 0px 20px;
+  width: 90%;
+  margin-left: 50px;
+}
+
+
+
+
+
+/* This is ThirdComponent */
+
+
+.fiat-crypto-table{
+  width: 95%;
+  max-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  margin: 0;
+}
+
+.table{
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+table{
+  border-collapse: separate;
+  display: table;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+
+}
+
+
+.fiat-crypto-table tbody tr{
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+tr{
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.table-text{
+  font-size: 14px;
+  white-space: nowrap;
+  align-items: center;
+}
+
+
+.exchange-logo{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+}
+
+
+.fiat-crypto-table th h4 img{
+  font-family: Oswald;
+  font-size: 16px;
+  opacity: 0.45;
+  letter-spacing: 1px;
+}
+
+
+.fiat-crypto-table a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+/* This is FourthComponent CSS */
+
+
+.padding-header{
+  width: 90%;
+  margin-left: 15px;
+}
+
+
+/* This is Footer CSS */
+.footer-text, 
+.footer-text-link{
+  color: #888686;
+} 
+
+.footer-text{
+  white-space: nowrap;
+    padding-right: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    float: left;
+}
+
+.footer-text-pointer{
+  margin-left: auto;
+}
+
+.footer{
+  /* display: block; */
+  /* float: left; */
+  border-top: 2px solid #ddd;
+  /* bottom: 300; */
+  position: absolute;
+  padding: 13px;
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+
+
+.footer-text a{
+  text-decoration: none;
+}
+
+
+.right{
+  float: right;
+}
+
+.right a{
+  margin-left: -90px;
+}
+
+
+
+ .justify-content-center{
+  border: solid 1px #191d28;
+  background-color: #191d28;
+  position: fixed;
+  left: 0;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  bottom: 0;
+  z-index: 98;
+  
+} 
+
+.btn-outline-info{
+
+
+
+  display: block;
+  color: #17a2b8;
+  background-color: black;
+  border: 1px solid #17a2b8;
+  font-size: 10px ;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
 }
